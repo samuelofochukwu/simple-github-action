@@ -4,7 +4,7 @@ on:
 
 jobs:
   run-shell-command:
-    runs-on: ubunt-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Echo a String
         run: echo "Hello Security Sam!! This is a Github Actions Workflow file"
