@@ -1,0 +1,11 @@
+name: Run Shell Commands
+on:
+  push
+
+jobs:
+  run-shell-command:
+    runs-on: ubunt-latest
+    steps:
+      - name: Echo a String
+        run: echo "Hello Security Sam!! This is a Github Actions Workflow file"
+
